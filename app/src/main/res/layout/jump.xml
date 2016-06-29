@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="10dp"
+            android:scaleType="centerInside"
+            android:background="@android:color/transparent"
+            android:id="@+id/imageView2" />
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="返回"
+            android:background="@android:color/transparent"
+            android:id="@+id/button1" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView1"
+        android:gravity="center"
+        android:layout_marginTop="100dp"
+        android:background="@android:color/transparent"
+        android:layout_gravity="center|center_horizontal" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="50dp">
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerInside"
+            android:layout_marginLeft="50dp"
+            android:background="@android:color/transparent"
+            android:id="@+id/imageButton1" />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerInside"
+            android:layout_marginLeft="50dp"
+            android:background="@android:color/transparent"
+            android:id="@+id/imageButton2" />
+    </LinearLayout>
+
+</LinearLayout>
