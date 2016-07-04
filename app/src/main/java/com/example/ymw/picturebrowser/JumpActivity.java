@@ -11,6 +11,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 /**
  * Created by ymw on 2016/6/28.
@@ -47,9 +48,8 @@ public class JumpActivity extends Activity {
                 pos = pos - 1;
                 if (pos <= 0) {
                     pos = 0;
-                    AlertDialog.Builder builder = new AlertDialog.Builder(JumpActivity.this);
-                    builder.setMessage("This has been the first");
-                    builder.show();
+                    Toast toast = Toast.makeText(getApplicationContext(),"已经到第一张了",Toast.LENGTH_SHORT);
+                    toast.show();
                 } else {
                     imgview.setImageResource(imgs[pos]);
                 }
@@ -61,9 +61,8 @@ public class JumpActivity extends Activity {
                 pos = pos + 1;
                 if (pos >= imgs.length) {
                     pos = imgs.length - 1;
-                    AlertDialog.Builder builder = new AlertDialog.Builder(JumpActivity.this);
-                    builder.setMessage("This has been the last");
-                    builder.show();
+                    Toast toast = Toast.makeText(getApplicationContext(),"已经到最后一张了",Toast.LENGTH_SHORT);
+                    toast.show();
                 } else {
                     imgview.setImageResource(imgs[pos]);
                 }
