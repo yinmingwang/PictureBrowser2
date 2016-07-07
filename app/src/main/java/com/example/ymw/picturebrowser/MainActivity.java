@@ -19,15 +19,14 @@ import java.util.Map;
 
 public class MainActivity extends Activity {
     private int[] imgs = new int[] {
-            R.drawable.img01,
-            R.drawable.img02,
-            R.drawable.img03,
-            R.drawable.img04,
-            R.drawable.img05,
-            R.drawable.img06,
-            R.drawable.img07,
-            R.drawable.img08,
-            R.drawable.img09,
+            R.drawable.img_1,
+            R.drawable.img_2,
+            R.drawable.img_3,
+            R.drawable.img_4,
+            R.drawable.img_7,
+            R.drawable.img_8,
+            R.drawable.img_9,
+            R.drawable.img_10
     };
     @Override
     protected void onCreate(Bundle savedInstanceState) {
